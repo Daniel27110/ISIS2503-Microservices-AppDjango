@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'places',
+    'variables',
 ]
 
 MIDDLEWARE = [
@@ -77,8 +77,8 @@ WSGI_APPLICATION = 'monitoring.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'places_db',
-        'USER': 'places_user',
+        'NAME': 'variables_db',
+        'USER': 'variables_user',
         'PASSWORD': 'isis2503',
         'HOST': '0.0.0.0',
         'PORT': '5432',
